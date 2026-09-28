@@ -1,0 +1,14 @@
+.hoplite/
+.context/
+.venv/
+.workbench/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.har
+*.burp
+*.burp.json
+reports/
+evidence/
+pocs/
