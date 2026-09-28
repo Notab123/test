@@ -1,0 +1,25 @@
+{
+  "target": {
+    "scope": {
+      "advanced_mode": true,
+      "exclude": [
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.app$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.app$", "port": "^443$", "protocol": "https"}
+      ],
+      "include": [
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.live$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.live$", "port": "^443$", "protocol": "https"},
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.com$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^.*\\.vercel\\.com$", "port": "^443$", "protocol": "https"},
+        {"enabled": true, "file": "^/.*", "host": "^vercel\\.app$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^vercel\\.app$", "port": "^443$", "protocol": "https"},
+        {"enabled": true, "file": "^/.*", "host": "^vercel\\.com$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^vercel\\.com$", "port": "^443$", "protocol": "https"},
+        {"enabled": true, "file": "^/.*", "host": "^v0\\.dev$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^v0\\.dev$", "port": "^443$", "protocol": "https"},
+        {"enabled": true, "file": "^/.*", "host": "^v0\\.app$", "port": "^80$", "protocol": "http"},
+        {"enabled": true, "file": "^/.*", "host": "^v0\\.app$", "port": "^443$", "protocol": "https"}
+      ]
+    }
+  }
+}
